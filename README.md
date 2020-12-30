@@ -3,7 +3,7 @@ A little script that can create backups for your Gnome installation and restore 
 
 My preferred usage: on an USB-Stick, flashed with my favourite Linux ISO. Run the script once before the reinstallation, then again afterwards. No files have to be moved by hand by doing so. Everything just works!
 
-`wget https://raw.githubusercontent.com/KnallbertLp/backupgnome/main/backupgnome.sh -O backupgnome.sh && chmod +x backupgnome.sh`
+`wget https://raw.githubusercontent.com/KnallbertLp/backupgnome/main/backupgnome.sh -O backupgnome.sh && chmod +x backupgnome.sh && ./backupgnome.sh`
 
 * **Usage:** ./backupgnome [ACTION] [OPTIONS ...]
 
