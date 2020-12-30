@@ -18,5 +18,5 @@ My preferred usage: on an USB-Stick, flashed with my favourite Linux ISO. Run th
 * **Options('-b')(preset):**  -u Preset for very cautious people. <br />            Sets -d dconf directory to '/org/gnome/shell/extensions/'<br />            and -e extention directory to '~/.local/share/gnome-shell/extensions/' <br />
 
 * **Good to know:**		If the script runs without any action specified, it will decide for it self what to do.<br />
-        If it finds a 'gnomebackup.tar.gz' int its directory, it will try to load it.<br />
+        If it finds a 'gnomebackup.tar.gz' in its directory, it will try to load it.<br />
         If it does not find any, it will strat creating a new backup <br />
