@@ -9,7 +9,7 @@ print_usage() {
   printf "              		-d [dconf~DIR] directory in dconf. learn more at ""'""dconf help""'"" or ""'""man dconf""'""  (DEFAULT: / )\n"
   printf "              		-A , -S , -E Backup All the things, only Settings or only Extentions (DEFAULT: -A )\n"
   printf "Options(""'""-b""'"")(preset):	-u Preset for very cautious people. \n 			Sets -d dconf directory to ""'""/org/gnome/shell/extensions/""'"" and -e extention directory to ""'""~/.local/share/gnome-shell/extensions/""'"" \n\n"
-  printf "Good to know:		If the script runs without any action specified, it will decide for it self, what to do.\n			If it finds a ""'""gnomebackup.tar.gz""'"" int its directory, it will try to load it.\n			If it does not find any, it will strat creating a new backup \n\n"
+  printf "Good to know:		If the script runs without any action specified, it will decide for it self, what to do.\n			If it finds a ""'""gnomebackup.tar.gz""'"" in its directory, it will try to load it.\n			If it does not find any, it will start creating a new backup \n\n"
   exit 0
 }
 
